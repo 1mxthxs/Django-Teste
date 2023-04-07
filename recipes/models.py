@@ -32,8 +32,6 @@ class Recipe(models.Model):
 
 
 class RecipeItem(models.Model):
-    
-
     title = models.CharField(max_length=65)
     description = models.CharField(max_length=165)
     slug = models.SlugField()
